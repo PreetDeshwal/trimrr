@@ -54,7 +54,7 @@ const LinkCard = ({url = [], fetchUrls}) => {
         <Button
           variant="ghost"
           onClick={() =>
-            navigator.clipboard.writeText(`http://localhost:5173/${url?.short_url}`)
+            navigator.clipboard.writeText(`https://linkmini-ten.vercel.app/${url?.short_url}`)
           }
         >
           <Copy />
